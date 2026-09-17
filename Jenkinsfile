@@ -4,7 +4,7 @@ pipeline {
         stage ('Checkout') {
             steps {
                 // Pulls code from your repository
-                git branch: 'main', url: 'https://github.com'
+                git branch: 'main', url: 'https://github.com/mahe-vit/project2_ass07.git'
             }
         }
         stage ('Generate Report') {
